@@ -3,6 +3,11 @@ body {
   padding: 0;
   font-family: "Inter", sans-serif;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -40,10 +45,6 @@ body {
   border-radius: 4px;
   color: #fff;
   font-size: 16px;
-}
-* {
-  margin: 0;
-  padding: 0;
 }
 
 /* donate area start */
@@ -114,4 +115,69 @@ body {
 }
 .item3 {
   background: #fff4d6;
+}
+
+/* depend-container area  */
+.depend-area {
+  margin-bottom: 100px;
+}
+.depend-container {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+.depend-img img {
+  width: 456px;
+  height: 460px;
+  border-radius: 8px;
+  padding-right: 50px;
+}
+
+.depend-text {
+  padding: 20px 30px 20px 0;
+}
+.depend-text p {
+  margin-bottom: 20px;
+  color: #707070;
+}
+
+.remove-padding {
+  padding: 20px 40px 20px 0;
+}
+
+/* .update area  */
+
+.update-area {
+  text-align: center;
+}
+.update-area p {
+  color: #707070;
+}
+
+.submit {
+  background-color: #fff4d6;
+  padding: 76px 188px;
+  margin: 50px 0;
+}
+
+input {
+  padding: 14px 17px;
+  border: 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  padding: 11px 32px !important;
+}
+
+footer {
+  color: #fff;
+  background-color: #0b0d17;
+  text-align: center;
+  padding: 80px 0;
+}
+
+footer h3 {
+  color: #ff5959;
+  font-size: 36px;
 }
